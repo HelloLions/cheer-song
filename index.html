@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 라이온즈 응원가</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/logo.png" alt="Samsung Lions Logo"> </div>
+        <nav class="categories">
+            <button class="category-btn active" data-category="situation">상황별 응원가</button>
+            <button class="category-btn" data-category="player">선수 응원가</button>
+            <button class="category-btn" data-category="team">팀 응원가</button>
+            <button class="category-btn" data-category="etc">그 외 응원가</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="응원가 제목 검색...">
+        </div>
+        <div id="cheer-song-list" class="cheer-song-list">
+            </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
