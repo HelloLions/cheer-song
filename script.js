@@ -71,7 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
             { title: "이지영", code: "115402835186784", user: "" },
             { title: "박석민", code: "106528547933250", user: "" },
             { title: "나바로", code: "132642659937032", user: "chosankru39" },
-            { title: "박한이", code: "111341859002231", user: "" }
+            { title: "박한이", code: "111341859002231", user: "" },
+            { title: "다린 러프", code: "80400148979383", user: "" },
+            { title: "심재훈", code: "88638347485273", user: "" },
+            { title: "박승규", code: "116039887945309", user: "" }
         ],
         team: [
             { title: "우리는 삼성", code: "85608183125548" },
