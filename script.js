@@ -136,9 +136,13 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const filteredSongs = songs.filter(song =>
-            song.title.toLowerCase().includes(lowerCaseSearchTerm)
-        );
+        // 검색 조건 수정: title 또는 user에 검색어가 포함되는지 확인
+        const filteredSongs = songs.filter(song => {
+            const titleMatches = song.title.toLowerCase().includes(lowerCaseSearchTerm);
+            const userMatches = song.user && song.user.toLowerCase().includes(lowerCaseSearchTerm);
+            return titleMatches || userMatches;
+        });
+
 
         if (filteredSongs.length === 0) {
             cheerSongListContainer.innerHTML = '<p>검색 결과가 없습니다.</p>';
