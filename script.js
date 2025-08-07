@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { title: "오승환", code: "98653623672659", user: "" },
             { title: "박해민", code: "106213993500202", user: "yjh10203" },
             { title: "이승엽", code: "117827694745312", user: "chdkdjdf" },
-            { title: "최형우", code: "78368485557032", user: "" },
+            { title: "최형우", code: "78368485557032", user: "sinae1114" },
             { title: "진갑용", code: "138033745782896", user: "" },
             { title: "이지영", code: "115402835186784", user: "" },
             { title: "박석민", code: "106528547933250", user: "kononaid1012" },
